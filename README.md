@@ -11,7 +11,7 @@
     <li>php artisan key:generate</li>
     <li>php artisan storage:link</li>
     <li>php artisan passport:keys</li>
-    <li>php artisan migrate</li>
+    <li>php artisan migrate:refresh --seed</li>
 </ul>
 
 <p>Instalaciones ya configuradas</p>
@@ -27,7 +27,7 @@
     
  <p>Comandos Básicos para hacer scaffold</p>
  <ul>
-    <li> php artisan infyom:scaffold (Nombre Modelo) --fromTable --tableName=(nombre tabla) <b> solo web </b></li>
-    <li>php artisan   infyom:api_scaffold<b> si se quiere conn api también</b></li>
+    <li>php artisan infyom:scaffold (Nombre Modelo) --fromTable --tableName=(nombre tabla) <b> solo web </b></li>
+    <li>php artisan infyom:api_scaffold<b> si se quiere conn api también</b></li>
     <li>php artisan infyom:api  <b> solo el api</b></li>
   </ul>
